@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.background {
+  position: relative;
+  width: 3072px;
+  height: 1px;
+  background-color: #fafaf5;
+}
+
+.grid {
+  position: absolute;
+  width: 1536px;
+  height: 1552px;
+}
+
+.title_svg {
+  position: absolute;
+  top: 239px;
+  left: 86px;
+  width: 75px;
+  height: auto;
+}
+
+.info_01svg {
+  position: absolute;
+  top: 66px;
+  left: 80px;
+  width: auto;
+  height: 60px;
+}
+
+.info_02svg {
+  position: absolute;
+  top: 63px;
+  right: 80px;
+  width: auto;
+  height: 38px;
+}
+
+.subtitle_svg {
+  position: absolute;
+  top: 602px;
+  left: 191px;
+  width: auto;
+  height: 20px;
+}
+
+.main_info_svg {
+  position: absolute;
+  top: 638px;
+  left: 189px;
+  width: auto;
+  height: 51px;
+}
+
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1550px;
+}
+
+.box {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: px;
+}
+
+.yellow_svg {
+  position: absolute;
+  top: 696.5px;
+  left: 216.5px;
+  width: auto;
+  height: 23px;
+}
+.lightblue_svg {
+  position: absolute;
+  top: 457.5px;
+  left: 49px;
+  width: auto;
+  height: 23px;
+}
+.lightblue02_svg {
+  position: absolute;
+  top: 265.5px;
+  left: 1369px;
+  width: auto;
+  height: 23px;
+}
+
+.white_svg {
+  position: absolute;
+  top: 169.5px;
+  left: 385px;
+  width: auto;
+  height: 23px;
+}
+.white02_svg {
+  position: absolute;
+  top: 721.1px;
+  left: 1440.4px;
+  width: auto;
+  height: 23px;
+}
+.purple_svg {
+  position: absolute;
+  top: 97.3px;
+  left: 1224.5px;
+  width: auto;
+  height: 23px;
+}
+.red_svg {
+  position: absolute;
+  top: 145.3px;
+  left: 336.5px;
+  width: auto;
+  height: 23px;
+}
+
+.black_svg {
+  position: absolute;
+  top: 649.1px;
+  left: 1416.3px;
+  width: auto;
+  height: 23px;
+}
+
+.green_svg {
+  position: absolute;
+  top: 25.3px;
+  left: 96.5px;
+  width: auto;
+  height: 23px;
+}
+.green02_svg {
+  position: absolute;
+  top: 697.1px;
+  left: 1200.3px;
+  width: auto;
+  height: 23px;
+}
