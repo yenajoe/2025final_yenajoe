@@ -33,35 +33,65 @@ body {
 .info_01svg {
   position: absolute;
   top: 66px;
-  left: 80px;
+  left: 91px;
   width: auto;
   height: 60px;
 }
 
 .info_02svg {
   position: absolute;
-  top: 63px;
-  right: 80px;
+  top: 65px;
+  right: 89px;
+  width: auto;
+  height: 39px;
+}
+
+.info_03svg {
+  position: absolute;
+  top: 569px;
+  right: 1166px;
   width: auto;
   height: 38px;
 }
 
 .subtitle_svg {
   position: absolute;
-  top: 602px;
-  left: 191px;
+  top: 535px;
+  left: 204px;
   width: auto;
   height: 20px;
 }
 
 .main_info_svg {
   position: absolute;
-  top: 638px;
-  left: 189px;
+  top: 621px;
+  left: 201px;
   width: auto;
-  height: 51px;
+  height: 70px;
 }
 
+.indicator_svg {
+  position: absolute;
+  top: 368px;
+  left: 694px;
+  width: auto;
+  height: 22px;
+  opacity: 0.2;
+
+  animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-9.5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .container {
   position: absolute;
   top: 0px;
