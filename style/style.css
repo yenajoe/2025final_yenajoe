@@ -70,6 +70,15 @@ body {
   height: 70px;
 }
 
+.restart_svg {
+  position: absolute;
+  top: 656.1px;
+  left: 1402.3px;
+  width: auto;
+  height: 33px;
+  opacity: 0.5;
+}
+
 .indicator_svg {
   position: absolute;
   top: 368px;
@@ -180,13 +189,4 @@ body {
   left: 1200.3px;
   width: auto;
   height: 23px;
-}
-
-.restart_svg {
-  position: absolute;
-  top: 656.1px;
-  left: 1402.3px;
-  width: auto;
-  height: 33px;
-  opacity: 0.5;
 }
