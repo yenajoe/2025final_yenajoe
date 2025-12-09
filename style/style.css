@@ -146,7 +146,7 @@ body {
 }
 .purple_svg {
   position: absolute;
-  top: 97.3px;
+  top: 121.3px;
   left: 1224.5px;
   width: auto;
   height: 23px;
@@ -161,7 +161,7 @@ body {
 
 .black_svg {
   position: absolute;
-  top: 649.1px;
+  top: 577.1px;
   left: 1416.3px;
   width: auto;
   height: 23px;
@@ -180,4 +180,13 @@ body {
   left: 1200.3px;
   width: auto;
   height: 23px;
+}
+
+.restart_svg {
+  position: absolute;
+  top: 656.1px;
+  left: 1402.3px;
+  width: auto;
+  height: 33px;
+  opacity: 0.5;
 }
